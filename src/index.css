@@ -1,12 +1,5 @@
-input {
-  padding: 0;
-  background: none;
-  border: none;
-  border-radius: 0;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+body {
+  font-family: 'Inter Variable', sans-serif;
 }
 
 :root {
@@ -24,25 +17,7 @@ input {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(6, 183, 249) 11.2%,
-    rgb(25, 74, 236) 91.1%
-  );
-
-  margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -52,51 +27,10 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  color: rgb(76, 174, 231);
-
-  border-radius: 8px;
-  border: 1px solid transparent;
-  font-size: 0.9em !important;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: white;
-  cursor: pointer;
-  transition: border-color 0.25s;
-  transition: 0.25s;
-  /* display: block;
-  margin-left: 40%; */
-
-  padding: 1em 2em;
-}
-button:hover {
-  border-color: #646cff;
-  background-color: rgba(127, 222, 222, 0.651);
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button:hover {
-    transform: translateY(-0.25em);
-  }
-  input {
-    background: none;
-    border: solid 3px #7e8286;
-    padding: 0.7em;
-    margin-bottom: 0.4em;
-    margin-right: 0.5em;
-  }
-  select {
   }
 }
 
